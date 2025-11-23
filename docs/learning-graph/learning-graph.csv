@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Software Engineering Leader,,FOUND
+2,Engineering Organization,1,FOUND
+3,Technical Leadership,1,FOUND
+4,People Management,1,FOUND
+5,Engineering Strategy,1|2|3,FOUND
+6,Technology Landscape,1,FOUND
+7,Cloud Computing,6,CLOUD
+8,Infrastructure as Code,7,CLOUD
+9,Kubernetes,7|10,CLOUD
+10,Container Orchestration,7,CLOUD
+11,Docker Containers,10,CLOUD
+12,Multi-Cloud Strategy,7|14|15|16,CLOUD
+13,Hybrid Cloud,7|12,CLOUD
+14,AWS,7,CLOUD
+15,Azure,7,CLOUD
+16,Google Cloud Platform,7,CLOUD
+17,Terraform,8,CLOUD
+18,Pulumi,8,CLOUD
+19,CloudFormation,8|14,CLOUD
+20,Edge Computing,7,CLOUD
+21,Serverless Architecture,7,CLOUD
+22,AWS Lambda,21|14,CLOUD
+23,Azure Functions,21|15,CLOUD
+24,Cold Start Problem,21,CLOUD
+25,Large Language Models,6,AIML
+26,GPT Models,25,AIML
+27,Claude AI,25,AIML
+28,AI-Assisted Development,25|29,AIML
+29,GitHub Copilot,25,AIML
+30,Code Generation,25|28,AIML
+31,MLOps,25|32,AIML
+32,ML Pipelines,25,AIML
+33,Model Versioning,31,AIML
+34,Feature Stores,31,AIML
+35,Model Monitoring,31|51,AIML
+36,Real-Time Data Streaming,6|40,AIML
+37,Apache Kafka,36,AIML
+38,Apache Pulsar,36,AIML
+39,Apache Flink,36,AIML
+40,Event-Driven Architecture,6,AIML
+41,Vector Databases,25|43,AIML
+42,Pinecone,41,AIML
+43,Semantic Search,25,AIML
+44,RAG Architecture,25|41|43,AIML
+45,Platform Engineering,6|48,DEVEX
+46,Internal Developer Platform,45,DEVEX
+47,Backstage,46,DEVEX
+48,Developer Experience,1|6,DEVEX
+49,Cognitive Load,48,DEVEX
+50,Developer Onboarding,48|46,DEVEX
+51,Observability,6,DEVEX
+52,OpenTelemetry,51,DEVEX
+53,Distributed Tracing,51|52,DEVEX
+54,Metrics Collection,51,DEVEX
+55,Log Aggregation,51,DEVEX
+56,Datadog,51,DEVEX
+57,Grafana,51|54,DEVEX
+58,Honeycomb,51|53,DEVEX
+59,Feature Flags,6|60,DEVEX
+60,Progressive Delivery,6,DEVEX
+61,LaunchDarkly,59,DEVEX
+62,Controlled Rollouts,59|60,DEVEX
+63,API Management,6,DEVEX
+64,GraphQL Federation,63,DEVEX
+65,API Gateway,63,DEVEX
+66,OpenAPI Specification,63,DEVEX
+67,Security Automation,6|72,DEVEX
+68,SAST Tools,67,DEVEX
+69,DAST Tools,67,DEVEX
+70,Dependency Scanning,67,DEVEX
+71,Secrets Management,67,DEVEX
+72,Shift Left Security,6,DEVEX
+73,Team Topologies,2|4,TEAM
+74,Stream-Aligned Teams,73,TEAM
+75,Platform Teams,73|45,TEAM
+76,Enabling Teams,73,TEAM
+77,Complicated Subsystem Teams,73,TEAM
+78,High-Performance Teams,73|79,TEAM
+79,Team Dynamics,4|73,TEAM
+80,Structured Interviewing,4|81,TEAM
+81,Interview Rubrics,4,TEAM
+82,Bias Reduction,80|81,TEAM
+83,Career Ladders,4|84|85,TEAM
+84,IC Track,3,TEAM
+85,Management Track,4,TEAM
+86,Skills Gap Analysis,4|83,TEAM
+87,Retention Strategies,4|88,TEAM
+88,Compensation Strategy,4,TEAM
+89,Psychological Safety,4|79,CULT
+90,Trust Building,89,CULT
+91,Vulnerability in Teams,89|90,CULT
+92,Productive Conflict,89,CULT
+93,Healthy Debate,89|92,CULT
+94,Toxic Behavior Management,4|89,CULT
+95,Remote Team Leadership,4|96,CULT
+96,Distributed Teams,4,CULT
+97,Asynchronous Communication,96,CULT
+98,Documentation Culture,96|97,CULT
+99,Time Zone Management,96,CULT
+100,Virtual Collaboration,96|97,CULT
+101,Code Quality,3|102,PRACT
+102,Code Review Process,3,PRACT
+103,Review Time SLAs,102,PRACT
+104,Automated Quality Gates,101|105|106,PRACT
+105,Linting,101,PRACT
+106,Static Analysis,101,PRACT
+107,Technical Debt,101|108,PRACT
+108,Debt Identification,101,PRACT
+109,Debt Prioritization,107|108,PRACT
+110,Architecture Decision Records,3|111,PRACT
+111,ADR Process,3,PRACT
+112,Unit Testing,101|113,PRACT
+113,Test Coverage,101,PRACT
+114,Integration Testing,112|115,PRACT
+115,Contract Testing,112,PRACT
+116,End-to-End Testing,114,PRACT
+117,Performance Testing,101|118,PRACT
+118,Chaos Engineering,117|119,PRACT
+119,Resilience Testing,117,PRACT
+120,Continuous Integration,101|121,PRACT
+121,Continuous Delivery,120,PRACT
+122,Trunk-Based Development,120|123,PRACT
+123,GitFlow,120,PRACT
+124,Deployment Frequency,121|148,METR
+125,Blue-Green Deployment,121,PRACT
+126,Canary Deployment,121|60,PRACT
+127,Rollback Capabilities,121,PRACT
+128,Site Reliability Engineering,3|129,OPS
+129,SRE Principles,3,OPS
+130,Service Level Objectives,128|131,OPS
+131,Service Level Indicators,128,OPS
+132,Service Level Agreements,130,OPS
+133,Error Budgets,130|134,OPS
+134,Reliability vs Velocity,128,OPS
+135,On-Call Practices,128|136,OPS
+136,Sustainable Rotations,128,OPS
+137,Runbooks,135,OPS
+138,Post-Incident Reviews,141|139,OPS
+139,Blameless Postmortems,141|140,OPS
+140,Learning from Failures,141,OPS
+141,Incident Management,128|142,OPS
+142,Severity Classification,141,OPS
+143,Escalation Procedures,141|142,OPS
+144,Outage Communication,141,OPS
+145,Cross-Team Coordination,141|73,OPS
+146,Game Days,118|141,OPS
+147,Incident Response,141|143,OPS
+148,DORA Metrics,121|149|150|151,METR
+149,Lead Time for Changes,121,METR
+150,Mean Time to Recovery,141,METR
+151,Change Failure Rate,121,METR
+152,SPACE Framework,153|154|155|156|157,METR
+153,Developer Satisfaction,48,METR
+154,Developer Performance,48,METR
+155,Developer Activity,48,METR
+156,Team Communication,79,METR
+157,Flow Efficiency,158,METR
+158,Cycle Time,121,METR
+159,Engineering Metrics,148|152,METR
+160,Vanity Metrics,159,METR
+161,Business Outcomes,5|159,METR
+162,Engineering Culture,2|4|163,CPAT
+163,Innovation Mindset,162|164,CPAT
+164,Experimentation Culture,163,CPAT
+165,Ownership Culture,162|166,CPAT
+166,Build Run Own,165,CPAT
+167,Craftsmanship,162|168,CPAT
+168,Technical Excellence,3|167,CPAT
+169,Knowledge Sharing,162|170,CPAT
+170,Cross-Team Collaboration,73|169,CPAT
+171,Customer Focus,162|161,CPAT
+172,Cultural Anti-Patterns,162|173|174|175|176|177,CPAT
+173,Blame Culture,172,CPAT
+174,Hero Culture,172,CPAT
+175,Meeting Culture,172,CPAT
+176,Feature Factory,172,CPAT
+177,Not Invented Here,172,CPAT
+178,Team Health Checks,79|179,CPAT
+179,Retrospectives,79,CPAT
+180,Burnout Prevention,4|181,CPAT
+181,Developer Wellbeing,48|180,CPAT
+182,Hack Weeks,163|183,CPAT
+183,Innovation Time,163,CPAT
+184,Technology Strategy,5|185,STRAT
+185,Build vs Buy,184,STRAT
+186,Technical Due Diligence,184,STRAT
+187,Strategic Tech Debt,107|184,STRAT
+188,Stakeholder Management,4|189,STRAT
+189,Executive Communication,188,STRAT
+190,Managing Up,188,STRAT
+191,Resource Negotiation,188,STRAT
+192,Conway's Law,2|73|193,ORG
+193,Organizational Design,2,ORG
+194,Team Scaling,73|193,ORG
+195,Specialization Balance,193,ORG
+196,AI Agents,25,EMERG
+197,Quantum Computing,6,EMERG
+198,Web3 Technologies,6,EMERG
+199,Continuous Learning,1|200,EMERG
+200,T-Shaped Engineers,199,EMERG

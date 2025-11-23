@@ -1,0 +1,10 @@
+{
+  "title": "Software Engineering Leaders",
+  "description": "A comprehensive course equipping current and aspiring software engineering leaders with strategic knowledge, technical acumen, and leadership skills required to build and sustain high-performing engineering organizations.",
+  "creator": "Software Engineering Leadership Program",
+  "date": "2025-11-23",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

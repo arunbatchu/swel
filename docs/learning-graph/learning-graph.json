@@ -1,0 +1,2318 @@
+{
+  "metadata": {
+    "title": "Software Engineering Leaders",
+    "description": "A comprehensive course equipping current and aspiring software engineering leaders with strategic knowledge, technical acumen, and leadership skills required to build and sustain high-performing engineering organizations.",
+    "creator": "Software Engineering Leadership Program",
+    "date": "2025-11-23",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "#E53E3E",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CLOUD": {
+      "classifierName": "Cloud Infrastructure",
+      "color": "#3182CE",
+      "font": {
+        "color": "black"
+      }
+    },
+    "AIML": {
+      "classifierName": "AI and Machine Learning",
+      "color": "#805AD5",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DEVEX": {
+      "classifierName": "Developer Experience",
+      "color": "#38A169",
+      "font": {
+        "color": "black"
+      }
+    },
+    "TEAM": {
+      "classifierName": "Team Leadership",
+      "color": "#DD6B20",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CULT": {
+      "classifierName": "Team Culture",
+      "color": "#D69E2E",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PRACT": {
+      "classifierName": "Engineering Practices",
+      "color": "#319795",
+      "font": {
+        "color": "black"
+      }
+    },
+    "OPS": {
+      "classifierName": "Operations",
+      "color": "#E53E3E",
+      "font": {
+        "color": "black"
+      }
+    },
+    "METR": {
+      "classifierName": "Metrics",
+      "color": "#4A5568",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CPAT": {
+      "classifierName": "Culture Patterns",
+      "color": "#9F7AEA",
+      "font": {
+        "color": "black"
+      }
+    },
+    "STRAT": {
+      "classifierName": "Strategy",
+      "color": "#2B6CB0",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ORG": {
+      "classifierName": "Organization",
+      "color": "#718096",
+      "font": {
+        "color": "black"
+      }
+    },
+    "EMERG": {
+      "classifierName": "Emerging Tech",
+      "color": "#ED64A6",
+      "font": {
+        "color": "black"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Software Engineering Leader",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Engineering Organization",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Technical Leadership",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "People Management",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Engineering Strategy",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Technology Landscape",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Cloud Computing",
+      "group": "CLOUD"
+    },
+    {
+      "id": 8,
+      "label": "Infrastructure as Code",
+      "group": "CLOUD"
+    },
+    {
+      "id": 9,
+      "label": "Kubernetes",
+      "group": "CLOUD"
+    },
+    {
+      "id": 10,
+      "label": "Container Orchestration",
+      "group": "CLOUD"
+    },
+    {
+      "id": 11,
+      "label": "Docker Containers",
+      "group": "CLOUD"
+    },
+    {
+      "id": 12,
+      "label": "Multi-Cloud Strategy",
+      "group": "CLOUD"
+    },
+    {
+      "id": 13,
+      "label": "Hybrid Cloud",
+      "group": "CLOUD"
+    },
+    {
+      "id": 14,
+      "label": "AWS",
+      "group": "CLOUD"
+    },
+    {
+      "id": 15,
+      "label": "Azure",
+      "group": "CLOUD"
+    },
+    {
+      "id": 16,
+      "label": "Google Cloud Platform",
+      "group": "CLOUD"
+    },
+    {
+      "id": 17,
+      "label": "Terraform",
+      "group": "CLOUD"
+    },
+    {
+      "id": 18,
+      "label": "Pulumi",
+      "group": "CLOUD"
+    },
+    {
+      "id": 19,
+      "label": "CloudFormation",
+      "group": "CLOUD"
+    },
+    {
+      "id": 20,
+      "label": "Edge Computing",
+      "group": "CLOUD"
+    },
+    {
+      "id": 21,
+      "label": "Serverless Architecture",
+      "group": "CLOUD"
+    },
+    {
+      "id": 22,
+      "label": "AWS Lambda",
+      "group": "CLOUD"
+    },
+    {
+      "id": 23,
+      "label": "Azure Functions",
+      "group": "CLOUD"
+    },
+    {
+      "id": 24,
+      "label": "Cold Start Problem",
+      "group": "CLOUD"
+    },
+    {
+      "id": 25,
+      "label": "Large Language Models",
+      "group": "AIML"
+    },
+    {
+      "id": 26,
+      "label": "GPT Models",
+      "group": "AIML"
+    },
+    {
+      "id": 27,
+      "label": "Claude AI",
+      "group": "AIML"
+    },
+    {
+      "id": 28,
+      "label": "AI-Assisted Development",
+      "group": "AIML"
+    },
+    {
+      "id": 29,
+      "label": "GitHub Copilot",
+      "group": "AIML"
+    },
+    {
+      "id": 30,
+      "label": "Code Generation",
+      "group": "AIML"
+    },
+    {
+      "id": 31,
+      "label": "MLOps",
+      "group": "AIML"
+    },
+    {
+      "id": 32,
+      "label": "ML Pipelines",
+      "group": "AIML"
+    },
+    {
+      "id": 33,
+      "label": "Model Versioning",
+      "group": "AIML"
+    },
+    {
+      "id": 34,
+      "label": "Feature Stores",
+      "group": "AIML"
+    },
+    {
+      "id": 35,
+      "label": "Model Monitoring",
+      "group": "AIML"
+    },
+    {
+      "id": 36,
+      "label": "Real-Time Data Streaming",
+      "group": "AIML"
+    },
+    {
+      "id": 37,
+      "label": "Apache Kafka",
+      "group": "AIML"
+    },
+    {
+      "id": 38,
+      "label": "Apache Pulsar",
+      "group": "AIML"
+    },
+    {
+      "id": 39,
+      "label": "Apache Flink",
+      "group": "AIML"
+    },
+    {
+      "id": 40,
+      "label": "Event-Driven Architecture",
+      "group": "AIML"
+    },
+    {
+      "id": 41,
+      "label": "Vector Databases",
+      "group": "AIML"
+    },
+    {
+      "id": 42,
+      "label": "Pinecone",
+      "group": "AIML"
+    },
+    {
+      "id": 43,
+      "label": "Semantic Search",
+      "group": "AIML"
+    },
+    {
+      "id": 44,
+      "label": "RAG Architecture",
+      "group": "AIML"
+    },
+    {
+      "id": 45,
+      "label": "Platform Engineering",
+      "group": "DEVEX"
+    },
+    {
+      "id": 46,
+      "label": "Internal Developer Platform",
+      "group": "DEVEX"
+    },
+    {
+      "id": 47,
+      "label": "Backstage",
+      "group": "DEVEX"
+    },
+    {
+      "id": 48,
+      "label": "Developer Experience",
+      "group": "DEVEX"
+    },
+    {
+      "id": 49,
+      "label": "Cognitive Load",
+      "group": "DEVEX"
+    },
+    {
+      "id": 50,
+      "label": "Developer Onboarding",
+      "group": "DEVEX"
+    },
+    {
+      "id": 51,
+      "label": "Observability",
+      "group": "DEVEX"
+    },
+    {
+      "id": 52,
+      "label": "OpenTelemetry",
+      "group": "DEVEX"
+    },
+    {
+      "id": 53,
+      "label": "Distributed Tracing",
+      "group": "DEVEX"
+    },
+    {
+      "id": 54,
+      "label": "Metrics Collection",
+      "group": "DEVEX"
+    },
+    {
+      "id": 55,
+      "label": "Log Aggregation",
+      "group": "DEVEX"
+    },
+    {
+      "id": 56,
+      "label": "Datadog",
+      "group": "DEVEX"
+    },
+    {
+      "id": 57,
+      "label": "Grafana",
+      "group": "DEVEX"
+    },
+    {
+      "id": 58,
+      "label": "Honeycomb",
+      "group": "DEVEX"
+    },
+    {
+      "id": 59,
+      "label": "Feature Flags",
+      "group": "DEVEX"
+    },
+    {
+      "id": 60,
+      "label": "Progressive Delivery",
+      "group": "DEVEX"
+    },
+    {
+      "id": 61,
+      "label": "LaunchDarkly",
+      "group": "DEVEX"
+    },
+    {
+      "id": 62,
+      "label": "Controlled Rollouts",
+      "group": "DEVEX"
+    },
+    {
+      "id": 63,
+      "label": "API Management",
+      "group": "DEVEX"
+    },
+    {
+      "id": 64,
+      "label": "GraphQL Federation",
+      "group": "DEVEX"
+    },
+    {
+      "id": 65,
+      "label": "API Gateway",
+      "group": "DEVEX"
+    },
+    {
+      "id": 66,
+      "label": "OpenAPI Specification",
+      "group": "DEVEX"
+    },
+    {
+      "id": 67,
+      "label": "Security Automation",
+      "group": "DEVEX"
+    },
+    {
+      "id": 68,
+      "label": "SAST Tools",
+      "group": "DEVEX"
+    },
+    {
+      "id": 69,
+      "label": "DAST Tools",
+      "group": "DEVEX"
+    },
+    {
+      "id": 70,
+      "label": "Dependency Scanning",
+      "group": "DEVEX"
+    },
+    {
+      "id": 71,
+      "label": "Secrets Management",
+      "group": "DEVEX"
+    },
+    {
+      "id": 72,
+      "label": "Shift Left Security",
+      "group": "DEVEX"
+    },
+    {
+      "id": 73,
+      "label": "Team Topologies",
+      "group": "TEAM"
+    },
+    {
+      "id": 74,
+      "label": "Stream-Aligned Teams",
+      "group": "TEAM"
+    },
+    {
+      "id": 75,
+      "label": "Platform Teams",
+      "group": "TEAM"
+    },
+    {
+      "id": 76,
+      "label": "Enabling Teams",
+      "group": "TEAM"
+    },
+    {
+      "id": 77,
+      "label": "Complicated Subsystem Teams",
+      "group": "TEAM"
+    },
+    {
+      "id": 78,
+      "label": "High-Performance Teams",
+      "group": "TEAM"
+    },
+    {
+      "id": 79,
+      "label": "Team Dynamics",
+      "group": "TEAM"
+    },
+    {
+      "id": 80,
+      "label": "Structured Interviewing",
+      "group": "TEAM"
+    },
+    {
+      "id": 81,
+      "label": "Interview Rubrics",
+      "group": "TEAM"
+    },
+    {
+      "id": 82,
+      "label": "Bias Reduction",
+      "group": "TEAM"
+    },
+    {
+      "id": 83,
+      "label": "Career Ladders",
+      "group": "TEAM"
+    },
+    {
+      "id": 84,
+      "label": "IC Track",
+      "group": "TEAM"
+    },
+    {
+      "id": 85,
+      "label": "Management Track",
+      "group": "TEAM"
+    },
+    {
+      "id": 86,
+      "label": "Skills Gap Analysis",
+      "group": "TEAM"
+    },
+    {
+      "id": 87,
+      "label": "Retention Strategies",
+      "group": "TEAM"
+    },
+    {
+      "id": 88,
+      "label": "Compensation Strategy",
+      "group": "TEAM"
+    },
+    {
+      "id": 89,
+      "label": "Psychological Safety",
+      "group": "CULT"
+    },
+    {
+      "id": 90,
+      "label": "Trust Building",
+      "group": "CULT"
+    },
+    {
+      "id": 91,
+      "label": "Vulnerability in Teams",
+      "group": "CULT"
+    },
+    {
+      "id": 92,
+      "label": "Productive Conflict",
+      "group": "CULT"
+    },
+    {
+      "id": 93,
+      "label": "Healthy Debate",
+      "group": "CULT"
+    },
+    {
+      "id": 94,
+      "label": "Toxic Behavior Management",
+      "group": "CULT"
+    },
+    {
+      "id": 95,
+      "label": "Remote Team Leadership",
+      "group": "CULT"
+    },
+    {
+      "id": 96,
+      "label": "Distributed Teams",
+      "group": "CULT"
+    },
+    {
+      "id": 97,
+      "label": "Asynchronous Communication",
+      "group": "CULT"
+    },
+    {
+      "id": 98,
+      "label": "Documentation Culture",
+      "group": "CULT"
+    },
+    {
+      "id": 99,
+      "label": "Time Zone Management",
+      "group": "CULT"
+    },
+    {
+      "id": 100,
+      "label": "Virtual Collaboration",
+      "group": "CULT"
+    },
+    {
+      "id": 101,
+      "label": "Code Quality",
+      "group": "PRACT"
+    },
+    {
+      "id": 102,
+      "label": "Code Review Process",
+      "group": "PRACT"
+    },
+    {
+      "id": 103,
+      "label": "Review Time SLAs",
+      "group": "PRACT"
+    },
+    {
+      "id": 104,
+      "label": "Automated Quality Gates",
+      "group": "PRACT"
+    },
+    {
+      "id": 105,
+      "label": "Linting",
+      "group": "PRACT"
+    },
+    {
+      "id": 106,
+      "label": "Static Analysis",
+      "group": "PRACT"
+    },
+    {
+      "id": 107,
+      "label": "Technical Debt",
+      "group": "PRACT"
+    },
+    {
+      "id": 108,
+      "label": "Debt Identification",
+      "group": "PRACT"
+    },
+    {
+      "id": 109,
+      "label": "Debt Prioritization",
+      "group": "PRACT"
+    },
+    {
+      "id": 110,
+      "label": "Architecture Decision Records",
+      "group": "PRACT"
+    },
+    {
+      "id": 111,
+      "label": "ADR Process",
+      "group": "PRACT"
+    },
+    {
+      "id": 112,
+      "label": "Unit Testing",
+      "group": "PRACT"
+    },
+    {
+      "id": 113,
+      "label": "Test Coverage",
+      "group": "PRACT"
+    },
+    {
+      "id": 114,
+      "label": "Integration Testing",
+      "group": "PRACT"
+    },
+    {
+      "id": 115,
+      "label": "Contract Testing",
+      "group": "PRACT"
+    },
+    {
+      "id": 116,
+      "label": "End-to-End Testing",
+      "group": "PRACT"
+    },
+    {
+      "id": 117,
+      "label": "Performance Testing",
+      "group": "PRACT"
+    },
+    {
+      "id": 118,
+      "label": "Chaos Engineering",
+      "group": "PRACT"
+    },
+    {
+      "id": 119,
+      "label": "Resilience Testing",
+      "group": "PRACT"
+    },
+    {
+      "id": 120,
+      "label": "Continuous Integration",
+      "group": "PRACT"
+    },
+    {
+      "id": 121,
+      "label": "Continuous Delivery",
+      "group": "PRACT"
+    },
+    {
+      "id": 122,
+      "label": "Trunk-Based Development",
+      "group": "PRACT"
+    },
+    {
+      "id": 123,
+      "label": "GitFlow",
+      "group": "PRACT"
+    },
+    {
+      "id": 124,
+      "label": "Deployment Frequency",
+      "group": "METR"
+    },
+    {
+      "id": 125,
+      "label": "Blue-Green Deployment",
+      "group": "PRACT"
+    },
+    {
+      "id": 126,
+      "label": "Canary Deployment",
+      "group": "PRACT"
+    },
+    {
+      "id": 127,
+      "label": "Rollback Capabilities",
+      "group": "PRACT"
+    },
+    {
+      "id": 128,
+      "label": "Site Reliability Engineering",
+      "group": "OPS"
+    },
+    {
+      "id": 129,
+      "label": "SRE Principles",
+      "group": "OPS"
+    },
+    {
+      "id": 130,
+      "label": "Service Level Objectives",
+      "group": "OPS"
+    },
+    {
+      "id": 131,
+      "label": "Service Level Indicators",
+      "group": "OPS"
+    },
+    {
+      "id": 132,
+      "label": "Service Level Agreements",
+      "group": "OPS"
+    },
+    {
+      "id": 133,
+      "label": "Error Budgets",
+      "group": "OPS"
+    },
+    {
+      "id": 134,
+      "label": "Reliability vs Velocity",
+      "group": "OPS"
+    },
+    {
+      "id": 135,
+      "label": "On-Call Practices",
+      "group": "OPS"
+    },
+    {
+      "id": 136,
+      "label": "Sustainable Rotations",
+      "group": "OPS"
+    },
+    {
+      "id": 137,
+      "label": "Runbooks",
+      "group": "OPS"
+    },
+    {
+      "id": 138,
+      "label": "Post-Incident Reviews",
+      "group": "OPS"
+    },
+    {
+      "id": 139,
+      "label": "Blameless Postmortems",
+      "group": "OPS"
+    },
+    {
+      "id": 140,
+      "label": "Learning from Failures",
+      "group": "OPS"
+    },
+    {
+      "id": 141,
+      "label": "Incident Management",
+      "group": "OPS"
+    },
+    {
+      "id": 142,
+      "label": "Severity Classification",
+      "group": "OPS"
+    },
+    {
+      "id": 143,
+      "label": "Escalation Procedures",
+      "group": "OPS"
+    },
+    {
+      "id": 144,
+      "label": "Outage Communication",
+      "group": "OPS"
+    },
+    {
+      "id": 145,
+      "label": "Cross-Team Coordination",
+      "group": "OPS"
+    },
+    {
+      "id": 146,
+      "label": "Game Days",
+      "group": "OPS"
+    },
+    {
+      "id": 147,
+      "label": "Incident Response",
+      "group": "OPS"
+    },
+    {
+      "id": 148,
+      "label": "DORA Metrics",
+      "group": "METR"
+    },
+    {
+      "id": 149,
+      "label": "Lead Time for Changes",
+      "group": "METR"
+    },
+    {
+      "id": 150,
+      "label": "Mean Time to Recovery",
+      "group": "METR"
+    },
+    {
+      "id": 151,
+      "label": "Change Failure Rate",
+      "group": "METR"
+    },
+    {
+      "id": 152,
+      "label": "SPACE Framework",
+      "group": "METR"
+    },
+    {
+      "id": 153,
+      "label": "Developer Satisfaction",
+      "group": "METR"
+    },
+    {
+      "id": 154,
+      "label": "Developer Performance",
+      "group": "METR"
+    },
+    {
+      "id": 155,
+      "label": "Developer Activity",
+      "group": "METR"
+    },
+    {
+      "id": 156,
+      "label": "Team Communication",
+      "group": "METR"
+    },
+    {
+      "id": 157,
+      "label": "Flow Efficiency",
+      "group": "METR"
+    },
+    {
+      "id": 158,
+      "label": "Cycle Time",
+      "group": "METR"
+    },
+    {
+      "id": 159,
+      "label": "Engineering Metrics",
+      "group": "METR"
+    },
+    {
+      "id": 160,
+      "label": "Vanity Metrics",
+      "group": "METR"
+    },
+    {
+      "id": 161,
+      "label": "Business Outcomes",
+      "group": "METR"
+    },
+    {
+      "id": 162,
+      "label": "Engineering Culture",
+      "group": "CPAT"
+    },
+    {
+      "id": 163,
+      "label": "Innovation Mindset",
+      "group": "CPAT"
+    },
+    {
+      "id": 164,
+      "label": "Experimentation Culture",
+      "group": "CPAT"
+    },
+    {
+      "id": 165,
+      "label": "Ownership Culture",
+      "group": "CPAT"
+    },
+    {
+      "id": 166,
+      "label": "Build Run Own",
+      "group": "CPAT"
+    },
+    {
+      "id": 167,
+      "label": "Craftsmanship",
+      "group": "CPAT"
+    },
+    {
+      "id": 168,
+      "label": "Technical Excellence",
+      "group": "CPAT"
+    },
+    {
+      "id": 169,
+      "label": "Knowledge Sharing",
+      "group": "CPAT"
+    },
+    {
+      "id": 170,
+      "label": "Cross-Team Collaboration",
+      "group": "CPAT"
+    },
+    {
+      "id": 171,
+      "label": "Customer Focus",
+      "group": "CPAT"
+    },
+    {
+      "id": 172,
+      "label": "Cultural Anti-Patterns",
+      "group": "CPAT"
+    },
+    {
+      "id": 173,
+      "label": "Blame Culture",
+      "group": "CPAT"
+    },
+    {
+      "id": 174,
+      "label": "Hero Culture",
+      "group": "CPAT"
+    },
+    {
+      "id": 175,
+      "label": "Meeting Culture",
+      "group": "CPAT"
+    },
+    {
+      "id": 176,
+      "label": "Feature Factory",
+      "group": "CPAT"
+    },
+    {
+      "id": 177,
+      "label": "Not Invented Here",
+      "group": "CPAT"
+    },
+    {
+      "id": 178,
+      "label": "Team Health Checks",
+      "group": "CPAT"
+    },
+    {
+      "id": 179,
+      "label": "Retrospectives",
+      "group": "CPAT"
+    },
+    {
+      "id": 180,
+      "label": "Burnout Prevention",
+      "group": "CPAT"
+    },
+    {
+      "id": 181,
+      "label": "Developer Wellbeing",
+      "group": "CPAT"
+    },
+    {
+      "id": 182,
+      "label": "Hack Weeks",
+      "group": "CPAT"
+    },
+    {
+      "id": 183,
+      "label": "Innovation Time",
+      "group": "CPAT"
+    },
+    {
+      "id": 184,
+      "label": "Technology Strategy",
+      "group": "STRAT"
+    },
+    {
+      "id": 185,
+      "label": "Build vs Buy",
+      "group": "STRAT"
+    },
+    {
+      "id": 186,
+      "label": "Technical Due Diligence",
+      "group": "STRAT"
+    },
+    {
+      "id": 187,
+      "label": "Strategic Tech Debt",
+      "group": "STRAT"
+    },
+    {
+      "id": 188,
+      "label": "Stakeholder Management",
+      "group": "STRAT"
+    },
+    {
+      "id": 189,
+      "label": "Executive Communication",
+      "group": "STRAT"
+    },
+    {
+      "id": 190,
+      "label": "Managing Up",
+      "group": "STRAT"
+    },
+    {
+      "id": 191,
+      "label": "Resource Negotiation",
+      "group": "STRAT"
+    },
+    {
+      "id": 192,
+      "label": "Conway's Law",
+      "group": "ORG"
+    },
+    {
+      "id": 193,
+      "label": "Organizational Design",
+      "group": "ORG"
+    },
+    {
+      "id": 194,
+      "label": "Team Scaling",
+      "group": "ORG"
+    },
+    {
+      "id": 195,
+      "label": "Specialization Balance",
+      "group": "ORG"
+    },
+    {
+      "id": 196,
+      "label": "AI Agents",
+      "group": "EMERG"
+    },
+    {
+      "id": 197,
+      "label": "Quantum Computing",
+      "group": "EMERG"
+    },
+    {
+      "id": 198,
+      "label": "Web3 Technologies",
+      "group": "EMERG"
+    },
+    {
+      "id": 199,
+      "label": "Continuous Learning",
+      "group": "EMERG"
+    },
+    {
+      "id": 200,
+      "label": "T-Shaped Engineers",
+      "group": "EMERG"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 4,
+      "to": 1
+    },
+    {
+      "from": 5,
+      "to": 1
+    },
+    {
+      "from": 5,
+      "to": 2
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 1
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 10
+    },
+    {
+      "from": 10,
+      "to": 7
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 12,
+      "to": 7
+    },
+    {
+      "from": 12,
+      "to": 14
+    },
+    {
+      "from": 12,
+      "to": 15
+    },
+    {
+      "from": 12,
+      "to": 16
+    },
+    {
+      "from": 13,
+      "to": 7
+    },
+    {
+      "from": 13,
+      "to": 12
+    },
+    {
+      "from": 14,
+      "to": 7
+    },
+    {
+      "from": 15,
+      "to": 7
+    },
+    {
+      "from": 16,
+      "to": 7
+    },
+    {
+      "from": 17,
+      "to": 8
+    },
+    {
+      "from": 18,
+      "to": 8
+    },
+    {
+      "from": 19,
+      "to": 8
+    },
+    {
+      "from": 19,
+      "to": 14
+    },
+    {
+      "from": 20,
+      "to": 7
+    },
+    {
+      "from": 21,
+      "to": 7
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 22,
+      "to": 14
+    },
+    {
+      "from": 23,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 15
+    },
+    {
+      "from": 24,
+      "to": 21
+    },
+    {
+      "from": 25,
+      "to": 6
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 25
+    },
+    {
+      "from": 28,
+      "to": 25
+    },
+    {
+      "from": 28,
+      "to": 29
+    },
+    {
+      "from": 29,
+      "to": 25
+    },
+    {
+      "from": 30,
+      "to": 25
+    },
+    {
+      "from": 30,
+      "to": 28
+    },
+    {
+      "from": 31,
+      "to": 25
+    },
+    {
+      "from": 31,
+      "to": 32
+    },
+    {
+      "from": 32,
+      "to": 25
+    },
+    {
+      "from": 33,
+      "to": 31
+    },
+    {
+      "from": 34,
+      "to": 31
+    },
+    {
+      "from": 35,
+      "to": 31
+    },
+    {
+      "from": 35,
+      "to": 51
+    },
+    {
+      "from": 36,
+      "to": 6
+    },
+    {
+      "from": 36,
+      "to": 40
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 36
+    },
+    {
+      "from": 39,
+      "to": 36
+    },
+    {
+      "from": 40,
+      "to": 6
+    },
+    {
+      "from": 41,
+      "to": 25
+    },
+    {
+      "from": 41,
+      "to": 43
+    },
+    {
+      "from": 42,
+      "to": 41
+    },
+    {
+      "from": 43,
+      "to": 25
+    },
+    {
+      "from": 44,
+      "to": 25
+    },
+    {
+      "from": 44,
+      "to": 41
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 6
+    },
+    {
+      "from": 45,
+      "to": 48
+    },
+    {
+      "from": 46,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 1
+    },
+    {
+      "from": 48,
+      "to": 6
+    },
+    {
+      "from": 49,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 46
+    },
+    {
+      "from": 51,
+      "to": 6
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 51
+    },
+    {
+      "from": 55,
+      "to": 51
+    },
+    {
+      "from": 56,
+      "to": 51
+    },
+    {
+      "from": 57,
+      "to": 51
+    },
+    {
+      "from": 57,
+      "to": 54
+    },
+    {
+      "from": 58,
+      "to": 51
+    },
+    {
+      "from": 58,
+      "to": 53
+    },
+    {
+      "from": 59,
+      "to": 6
+    },
+    {
+      "from": 59,
+      "to": 60
+    },
+    {
+      "from": 60,
+      "to": 6
+    },
+    {
+      "from": 61,
+      "to": 59
+    },
+    {
+      "from": 62,
+      "to": 59
+    },
+    {
+      "from": 62,
+      "to": 60
+    },
+    {
+      "from": 63,
+      "to": 6
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 63
+    },
+    {
+      "from": 66,
+      "to": 63
+    },
+    {
+      "from": 67,
+      "to": 6
+    },
+    {
+      "from": 67,
+      "to": 72
+    },
+    {
+      "from": 68,
+      "to": 67
+    },
+    {
+      "from": 69,
+      "to": 67
+    },
+    {
+      "from": 70,
+      "to": 67
+    },
+    {
+      "from": 71,
+      "to": 67
+    },
+    {
+      "from": 72,
+      "to": 6
+    },
+    {
+      "from": 73,
+      "to": 2
+    },
+    {
+      "from": 73,
+      "to": 4
+    },
+    {
+      "from": 74,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 45
+    },
+    {
+      "from": 76,
+      "to": 73
+    },
+    {
+      "from": 77,
+      "to": 73
+    },
+    {
+      "from": 78,
+      "to": 73
+    },
+    {
+      "from": 78,
+      "to": 79
+    },
+    {
+      "from": 79,
+      "to": 4
+    },
+    {
+      "from": 79,
+      "to": 73
+    },
+    {
+      "from": 80,
+      "to": 4
+    },
+    {
+      "from": 80,
+      "to": 81
+    },
+    {
+      "from": 81,
+      "to": 4
+    },
+    {
+      "from": 82,
+      "to": 80
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 4
+    },
+    {
+      "from": 83,
+      "to": 84
+    },
+    {
+      "from": 83,
+      "to": 85
+    },
+    {
+      "from": 84,
+      "to": 3
+    },
+    {
+      "from": 85,
+      "to": 4
+    },
+    {
+      "from": 86,
+      "to": 4
+    },
+    {
+      "from": 86,
+      "to": 83
+    },
+    {
+      "from": 87,
+      "to": 4
+    },
+    {
+      "from": 87,
+      "to": 88
+    },
+    {
+      "from": 88,
+      "to": 4
+    },
+    {
+      "from": 89,
+      "to": 4
+    },
+    {
+      "from": 89,
+      "to": 79
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 92,
+      "to": 89
+    },
+    {
+      "from": 93,
+      "to": 89
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 94,
+      "to": 4
+    },
+    {
+      "from": 94,
+      "to": 89
+    },
+    {
+      "from": 95,
+      "to": 4
+    },
+    {
+      "from": 95,
+      "to": 96
+    },
+    {
+      "from": 96,
+      "to": 4
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 96
+    },
+    {
+      "from": 100,
+      "to": 96
+    },
+    {
+      "from": 100,
+      "to": 97
+    },
+    {
+      "from": 101,
+      "to": 3
+    },
+    {
+      "from": 101,
+      "to": 102
+    },
+    {
+      "from": 102,
+      "to": 3
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 104,
+      "to": 101
+    },
+    {
+      "from": 104,
+      "to": 105
+    },
+    {
+      "from": 104,
+      "to": 106
+    },
+    {
+      "from": 105,
+      "to": 101
+    },
+    {
+      "from": 106,
+      "to": 101
+    },
+    {
+      "from": 107,
+      "to": 101
+    },
+    {
+      "from": 107,
+      "to": 108
+    },
+    {
+      "from": 108,
+      "to": 101
+    },
+    {
+      "from": 109,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 3
+    },
+    {
+      "from": 110,
+      "to": 111
+    },
+    {
+      "from": 111,
+      "to": 3
+    },
+    {
+      "from": 112,
+      "to": 101
+    },
+    {
+      "from": 112,
+      "to": 113
+    },
+    {
+      "from": 113,
+      "to": 101
+    },
+    {
+      "from": 114,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 115
+    },
+    {
+      "from": 115,
+      "to": 112
+    },
+    {
+      "from": 116,
+      "to": 114
+    },
+    {
+      "from": 117,
+      "to": 101
+    },
+    {
+      "from": 117,
+      "to": 118
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 118,
+      "to": 119
+    },
+    {
+      "from": 119,
+      "to": 117
+    },
+    {
+      "from": 120,
+      "to": 101
+    },
+    {
+      "from": 120,
+      "to": 121
+    },
+    {
+      "from": 121,
+      "to": 120
+    },
+    {
+      "from": 122,
+      "to": 120
+    },
+    {
+      "from": 122,
+      "to": 123
+    },
+    {
+      "from": 123,
+      "to": 120
+    },
+    {
+      "from": 124,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 148
+    },
+    {
+      "from": 125,
+      "to": 121
+    },
+    {
+      "from": 126,
+      "to": 121
+    },
+    {
+      "from": 126,
+      "to": 60
+    },
+    {
+      "from": 127,
+      "to": 121
+    },
+    {
+      "from": 128,
+      "to": 3
+    },
+    {
+      "from": 128,
+      "to": 129
+    },
+    {
+      "from": 129,
+      "to": 3
+    },
+    {
+      "from": 130,
+      "to": 128
+    },
+    {
+      "from": 130,
+      "to": 131
+    },
+    {
+      "from": 131,
+      "to": 128
+    },
+    {
+      "from": 132,
+      "to": 130
+    },
+    {
+      "from": 133,
+      "to": 130
+    },
+    {
+      "from": 133,
+      "to": 134
+    },
+    {
+      "from": 134,
+      "to": 128
+    },
+    {
+      "from": 135,
+      "to": 128
+    },
+    {
+      "from": 135,
+      "to": 136
+    },
+    {
+      "from": 136,
+      "to": 128
+    },
+    {
+      "from": 137,
+      "to": 135
+    },
+    {
+      "from": 138,
+      "to": 141
+    },
+    {
+      "from": 138,
+      "to": 139
+    },
+    {
+      "from": 139,
+      "to": 141
+    },
+    {
+      "from": 139,
+      "to": 140
+    },
+    {
+      "from": 140,
+      "to": 141
+    },
+    {
+      "from": 141,
+      "to": 128
+    },
+    {
+      "from": 141,
+      "to": 142
+    },
+    {
+      "from": 142,
+      "to": 141
+    },
+    {
+      "from": 143,
+      "to": 141
+    },
+    {
+      "from": 143,
+      "to": 142
+    },
+    {
+      "from": 144,
+      "to": 141
+    },
+    {
+      "from": 145,
+      "to": 141
+    },
+    {
+      "from": 145,
+      "to": 73
+    },
+    {
+      "from": 146,
+      "to": 118
+    },
+    {
+      "from": 146,
+      "to": 141
+    },
+    {
+      "from": 147,
+      "to": 141
+    },
+    {
+      "from": 147,
+      "to": 143
+    },
+    {
+      "from": 148,
+      "to": 121
+    },
+    {
+      "from": 148,
+      "to": 149
+    },
+    {
+      "from": 148,
+      "to": 150
+    },
+    {
+      "from": 148,
+      "to": 151
+    },
+    {
+      "from": 149,
+      "to": 121
+    },
+    {
+      "from": 150,
+      "to": 141
+    },
+    {
+      "from": 151,
+      "to": 121
+    },
+    {
+      "from": 152,
+      "to": 153
+    },
+    {
+      "from": 152,
+      "to": 154
+    },
+    {
+      "from": 152,
+      "to": 155
+    },
+    {
+      "from": 152,
+      "to": 156
+    },
+    {
+      "from": 152,
+      "to": 157
+    },
+    {
+      "from": 153,
+      "to": 48
+    },
+    {
+      "from": 154,
+      "to": 48
+    },
+    {
+      "from": 155,
+      "to": 48
+    },
+    {
+      "from": 156,
+      "to": 79
+    },
+    {
+      "from": 157,
+      "to": 158
+    },
+    {
+      "from": 158,
+      "to": 121
+    },
+    {
+      "from": 159,
+      "to": 148
+    },
+    {
+      "from": 159,
+      "to": 152
+    },
+    {
+      "from": 160,
+      "to": 159
+    },
+    {
+      "from": 161,
+      "to": 5
+    },
+    {
+      "from": 161,
+      "to": 159
+    },
+    {
+      "from": 162,
+      "to": 2
+    },
+    {
+      "from": 162,
+      "to": 4
+    },
+    {
+      "from": 162,
+      "to": 163
+    },
+    {
+      "from": 163,
+      "to": 162
+    },
+    {
+      "from": 163,
+      "to": 164
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 162
+    },
+    {
+      "from": 165,
+      "to": 166
+    },
+    {
+      "from": 166,
+      "to": 165
+    },
+    {
+      "from": 167,
+      "to": 162
+    },
+    {
+      "from": 167,
+      "to": 168
+    },
+    {
+      "from": 168,
+      "to": 3
+    },
+    {
+      "from": 168,
+      "to": 167
+    },
+    {
+      "from": 169,
+      "to": 162
+    },
+    {
+      "from": 169,
+      "to": 170
+    },
+    {
+      "from": 170,
+      "to": 73
+    },
+    {
+      "from": 170,
+      "to": 169
+    },
+    {
+      "from": 171,
+      "to": 162
+    },
+    {
+      "from": 171,
+      "to": 161
+    },
+    {
+      "from": 172,
+      "to": 162
+    },
+    {
+      "from": 172,
+      "to": 173
+    },
+    {
+      "from": 172,
+      "to": 174
+    },
+    {
+      "from": 172,
+      "to": 175
+    },
+    {
+      "from": 172,
+      "to": 176
+    },
+    {
+      "from": 172,
+      "to": 177
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 174,
+      "to": 172
+    },
+    {
+      "from": 175,
+      "to": 172
+    },
+    {
+      "from": 176,
+      "to": 172
+    },
+    {
+      "from": 177,
+      "to": 172
+    },
+    {
+      "from": 178,
+      "to": 79
+    },
+    {
+      "from": 178,
+      "to": 179
+    },
+    {
+      "from": 179,
+      "to": 79
+    },
+    {
+      "from": 180,
+      "to": 4
+    },
+    {
+      "from": 180,
+      "to": 181
+    },
+    {
+      "from": 181,
+      "to": 48
+    },
+    {
+      "from": 181,
+      "to": 180
+    },
+    {
+      "from": 182,
+      "to": 163
+    },
+    {
+      "from": 182,
+      "to": 183
+    },
+    {
+      "from": 183,
+      "to": 163
+    },
+    {
+      "from": 184,
+      "to": 5
+    },
+    {
+      "from": 184,
+      "to": 185
+    },
+    {
+      "from": 185,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 184
+    },
+    {
+      "from": 187,
+      "to": 107
+    },
+    {
+      "from": 187,
+      "to": 184
+    },
+    {
+      "from": 188,
+      "to": 4
+    },
+    {
+      "from": 188,
+      "to": 189
+    },
+    {
+      "from": 189,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 188
+    },
+    {
+      "from": 191,
+      "to": 188
+    },
+    {
+      "from": 192,
+      "to": 2
+    },
+    {
+      "from": 192,
+      "to": 73
+    },
+    {
+      "from": 192,
+      "to": 193
+    },
+    {
+      "from": 193,
+      "to": 2
+    },
+    {
+      "from": 194,
+      "to": 73
+    },
+    {
+      "from": 194,
+      "to": 193
+    },
+    {
+      "from": 195,
+      "to": 193
+    },
+    {
+      "from": 196,
+      "to": 25
+    },
+    {
+      "from": 197,
+      "to": 6
+    },
+    {
+      "from": 198,
+      "to": 6
+    },
+    {
+      "from": 199,
+      "to": 1
+    },
+    {
+      "from": 199,
+      "to": 200
+    },
+    {
+      "from": 200,
+      "to": 199
+    }
+  ]
+}
